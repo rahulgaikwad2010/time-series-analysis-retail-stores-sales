@@ -1,1 +1,1 @@
-# time-series-analysis-retail-stores-sales
+# Time Series Analysis Retail Stores Sales
