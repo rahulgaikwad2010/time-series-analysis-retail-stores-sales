@@ -3,16 +3,11 @@
 <br/>
 <br/>
 
-To check out the project open an .ipynb file.
-
-Time Series Analysis & Forecasting
-
-* Exploratory Data Analysis with Python (ECDF, missing values, Correlation analysis ...)
-* Forecasting with Prophet
+* Exploratory Data Analysis with Python **(missing values, Correlation analysis ...)**
+* Forecasting with **Prophet**
 
 Libraries used: numpy, pandas, matplotlib, seaborn, statsmodel, fbprophet (Facebook).
 
-Thank you for reading!
 
 # Table Of Contents
 -  [Project Structure Overview](#project-structure-overview)
