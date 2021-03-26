@@ -24,7 +24,7 @@ Libraries used: numpy, pandas, matplotlib, seaborn, statsmodel, fbprophet (Faceb
 ### Project Structure Overview
 ```
 ├── data          - this folder contains training data.
-│    ├── sales.csv
+│    ├── sales.csv - trimmed data is uploaded due to max limit
 │    └── store.csv
 │
 └── Retail Stores Sales Prediction.ipynb
