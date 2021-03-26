@@ -1,7 +1,5 @@
 # Time Series Analysis Retail Stores Sales
 
-<hr/>
-
 ### Business Context:
 
 A large grocery retailer (Shop@ABC) operates multiple stores in the US. 
