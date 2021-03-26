@@ -4,6 +4,7 @@
 <br/>
 
 # Table Of Contents
+-  [Project Structure Overview](#project-structure-overview)
 -  [Business Context](#business-context)
 -  [Problem Statement](#problem-statement)
 -  [Desired Outcome](#desired-outcome)
@@ -16,75 +17,11 @@
 
 ### Project Structure Overview
 ```
-├──  TextClassifier
-│    │
-│    ├── common_operations          - this package contains common operation tasks.
-│    │    ├── __init__.py
-│    │    └── common_operations.py  - this file reads config and convert to dictionary.
-│    │
-│    ├── data                       - this folder contains data for testing.
-│    │    ├── Contraction.json      - file for text preprocessing.
-│    │    └── TouchnoteReveiws.csv  - Sample reviews of touch note app.
-│    │
-│    └── logger                     - here's the logger package.
-│    │    ├── __init__.py
-│    │    ├── APILogger.py          - to send non-success code to front-end.
-│    │    ├── logger.py             - to log info & error in the code.
-│    │    └── LoggerError.py        - to log error while creating a logger object.
-│    │
-│    └── ModelPredictor             - this package is used to get prediction.
-│    │    ├── __init__.py
-│    │    └── ModelPredictor.py     - this code reads input and return prediction.
-│    │
-│    └── models                     - this folder contains exported models.
-│    │    ├── model_mapping.json    - to store model metadata. ex. Path.
-│    │    ├── log_reg.sav
-│    │    ├── naive_bayes.sav
-│    │    └── svm.sav
-│    │
-│    └── TextPreprocessor           - here's the package used to clean the raw input.
-│    │    ├── __init__.py
-│    │    └── TextPreprocessor.py   - this code takes raw text and return clean string for prediction.
-│    │
-│    └── TextClassifier.py          - driver code to execute operations smoothly.
+├── data          - this folder contains training data.
+│    ├── sales.csv
+│    └── store.csv
 │
-│
-├──  Touch Note App Review Analysis                        - this folder contains model training related data, models & notebook.
-|    |
-│    └── models                                            - this folder holds exported models.
-│    │    ├── log_reg.sav                                  - Logistic Regression Model.
-│    │    ├── naive_bayes.sav                              - Naive Bayes Model
-│    │    └── svm.sav                                      - SVM Model.
-│    │
-│    └── data                                              - this folder contains data used for model training.
-│    │    ├── Contraction.json                             - here's the file for text preprocessing.
-│    │    └── google_play_store_apps_reviews_training.csv  - Training Dataset.
-|    |
-│    ├── Touch Note App Review Analysis.ipynb              - Data Analysis & Model Training Notebook.
-│    └── Touch Note App Review Analysis.html               - Exported version in HTML.
-|
-│
-├──  static                  - this folder contains bootstrap 4 files.
-│    └── asset
-│    └── img
-│    └── js
-│    └── style
-│    └── index.js            - here's the file for frond-end form submission to flask app and vice versa.
-│
-│
-├── templates                - this folder contains front-end html files.
-│   └── index.html
-│
-│
-├── kubernetes                - this folder contains yaml file for deployment.
-│   └── deployment.yaml       - Kubernetes YAML file
-│
-│
-├── Dockerfile               - here's the docker file used to create docker image.
-├── README.md                - here's the ReadMe of an application.
-├── config.ini               - here's the specific config file for the application.
-├── requirements.txt         - here's the python package requirement txt.
-└── run.py                   - here's runnable of an application.
+└── Retail Stores Sales Prediction.ipynb
 ```
 
 <br/>
