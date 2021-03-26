@@ -81,3 +81,9 @@ Using the attached sample data, please come up with your analytics approach:
 ## References
 
 * [Rossmann_TSA_forecasts](https://github.com/datageekette/rossmann_TSA_forecasts)
+
+<br/>
+
+I welcome your questions. Write to rahul.gaikwad2010@gmail.com
+
+<br/>
